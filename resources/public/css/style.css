@@ -191,8 +191,9 @@ li.nav {
 
 #wrapper {
     margin: 0px auto;
-    width: 1100px;
+    width: 1000px;
     height: 600px;
+    margin-top: 5%;
 }
 
 #outer {
@@ -219,12 +220,12 @@ li.nav {
 }
 
 #inner {
-    width: 798px;
+    width: 748px;
     float: right;
 }
 
 #search {
-    width: 240px;
+    width: 190px;
     margin: 10px;
     height: 20px;
     padding: 3px;
@@ -246,7 +247,6 @@ li.nav {
 }
 
 #header {
-    height: 120px;
 }
 
 .center {
@@ -255,7 +255,7 @@ li.nav {
 }
 
 #side-nav {
-    width: 300px;
+    width: 250px;
     float: left;
 }
 
@@ -263,7 +263,7 @@ li.nav {
 #chart {
     border: 1px solid #A2A2A2;
     height: 530px;
-    background: rgba(239,239,239,0.3);
+    background: rgba(239,239,239,0.9);
     border-radius: 5px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -304,4 +304,14 @@ g:nth-child(16) {
 .spinner {
     position: relative;
     bottom: 200px;
+}
+
+/*jQuery UI Autocomplete 1.8.24*/
+
+.ui-menu {
+    color: #333;
+    background: #EEE;
+    border: 1px solid #333;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
